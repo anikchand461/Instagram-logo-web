@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.outer {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta {
+    height: 350px;
+    width: 350px;
+    border-radius: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.insta {
+    background:
+            radial-gradient(at 120% 50%, rgb(255, 0, 43) 5%, rgba(255, 255, 0, 0.025) 35%, #0a60b600 50%),
+            radial-gradient(at 12% -25%, #1c41f9 6px, rgba(255, 255, 0, 0.025) 30%, #0a60b600 10%),
+            radial-gradient(at 20% -70%, #afb4ff 30%, rgba(255, 255, 0, 0.025) 60%, #0a60b600 90%),
+            
+            radial-gradient(at 30% 145%, rgb(255, 247, 0) 20%, rgb(211, 211, 11, 0) 55%, #fb020200 0%),
+            radial-gradient(at 25% 110%, rgb(255, 0, 21) 35%, rgb(211, 211, 11, 0) 60%, #fb020200 0%),
+            #fd0f9ad1;
+}
+
+.inner {
+    color: transparent;
+    border: 22px solid white;
+    height: 215px;
+    width: 215px;
+    border-radius: 32%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-inner {
+    color: transparent;
+    border: 22px solid white;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+
+.dot {
+    color: transparent;
+    border: 15px solid white;
+    height: 0.1px;
+    width: 0.1px;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    bottom: 160px;
+}
